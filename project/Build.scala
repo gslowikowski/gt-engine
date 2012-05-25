@@ -33,7 +33,7 @@ object GTEngineBuild extends Build {
         	"commons-collections" % "commons-collections" % "3.2.1",
         	"commons-lang" % "commons-lang" % "2.6",
         	"org.easytesting" % "fest-assert" % "1.4" % "test",
-        	"junit" % "junit" % "4.8.2" % "test"
+        	"com.novocode" % "junit-interface" % "0.7" % "test"
       )
   }
 
@@ -42,7 +42,7 @@ object GTEngineBuild extends Build {
   object BuildSettings {
 
           val buildOrganization = "com.kjetland"
-          val buildVersion      = "0.2.1"
+          val buildVersion      = "0.2.3-SNAPSHOT"
           val buildScalaVersion = "2.9.1"
           val buildSbtVersion   = "0.11.2"
 
